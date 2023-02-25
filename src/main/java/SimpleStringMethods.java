@@ -13,8 +13,11 @@ public class SimpleStringMethods {
      * @param s the String to be manipulated.
      * @return the length of string s.
      */
+    public static void main(){
+        
+    }
     public int getStringLength(String s){
-        return 0;
+        return s.length();
     }
 
     /**
@@ -24,7 +27,7 @@ public class SimpleStringMethods {
      * @return the character of String s that is located at position n.
      */
     public char getCharacterAtIndex(String s, int n){
-        return ' ';
+        return s.charAt(n);
     }
 
     /**
@@ -36,7 +39,7 @@ public class SimpleStringMethods {
      * @return the index of the first occurence of c within s.
      */
     public int getIndexGivenCharacter(String s, char c){
-        return 0;
+        return s.indexOf(c);
     }
 
 }
