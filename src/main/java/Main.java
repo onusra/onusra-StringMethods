@@ -4,6 +4,8 @@
  * Please go to "SimpleStringMethods.java" to complete the lab. 
  * 
  */
+
+
 public class Main {
     public static void main(String[] args) {
         SimpleStringMethods ssm = new SimpleStringMethods();
